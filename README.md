@@ -25,3 +25,4 @@ Para el análisis de imágenes satelitales la clasificación de coberturas terre
 
 La clasificación de imágenes satelitales más utilizada es la basada en píxeles 
 > *la clasificación supervisada de imágenes, que es el que se lleva a cabo para encontrar propiedades comunes entre un conjunto de datos y clasificarlos dentro de diferentes rangos, de acuerdo a un modelo de clasificación* (García et al.1998 citado en Rojas y Medina, 2021,p.92).
+

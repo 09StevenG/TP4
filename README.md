@@ -21,4 +21,4 @@ La clasificación supervisada es fundamental pues gracias a ello se puede identi
 Para el análisis de imágenes satelitales la clasificación de coberturas terrestres consiste en la agrupación de clases espectrales con determinadas respuestas que finalmente proporciona clases informativas fundamentales para identificar la evolución de un área y los cambios que surgen producto de las dinámicas en la zona de estudio.
 
 La clasificación de imágenes satelitales más utilizada es la basada en píxeles 
-> *la clasificación supervisada de imágenes, que es el que se lleva a cabo para encontrar propiedades comunes entre un conjunto de datos y clasificarlos dentro de diferen-tes rangos, de acuerdo a un modelo de clasificación* (García et al.1998 citado en Rojas y Medina, 2021,p.92).>
+> *la clasificación supervisada de imágenes, que es el que se lleva a cabo para encontrar propiedades comunes entre un conjunto de datos y clasificarlos dentro de diferen-tes rangos, de acuerdo a un modelo de clasificación* (García et al.1998 citado en Rojas y Medina, 2021,p.92).

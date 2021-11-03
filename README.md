@@ -9,6 +9,7 @@ Clasificación de imágenes en GEE y matriz de confusión
 
 ## Procedimiento
 - Genere curvas de reflectancia para cada una de las coberturas definidas e interprételas brevemente
+
 - Para el proceso de clasificación, utilice los clasificadores: Classification and Regression Trees (CART)–ee.Classifier.smileCart y luego realice otra clasificación pero con RandomForest–ee.Classifier.smileRandomForest 
 - Compare los resultados de ambos clasificadores 
 - Realice la matriz de confusión para ambos clasificadores
@@ -19,6 +20,7 @@ Clasificación de imágenes en GEE y matriz de confusión
 
 La clasificación supervisada es fundamental pues gracias a ello se puede identificar un determinado píxel y clasificarlo para crear distintas categorías. 
 Para el análisis de imágenes satelitales la clasificación de coberturas terrestres consiste en la agrupación de clases espectrales con determinadas respuestas que finalmente proporciona clases informativas fundamentales para identificar la evolución de un área y los cambios que surgen producto de las dinámicas en la zona de estudio.
+En este tipo de clasificación la persona experta tiene el control del proceso y asigna áreas de entrenamiento conocidas para que posteriormente el algoritmo realice la identificación donde encuentre gupos de píxeles similares a los puntos o polígonos distribuidos previamente en en área de estudio.Finalmente es necesaria una validación del procedimiento.
 
 La clasificación de imágenes satelitales más utilizada es la basada en píxeles 
-> *la clasificación supervisada de imágenes, que es el que se lleva a cabo para encontrar propiedades comunes entre un conjunto de datos y clasificarlos dentro de diferen-tes rangos, de acuerdo a un modelo de clasificación* (García et al.1998 citado en Rojas y Medina, 2021,p.92).
+> *la clasificación supervisada de imágenes, que es el que se lleva a cabo para encontrar propiedades comunes entre un conjunto de datos y clasificarlos dentro de diferentes rangos, de acuerdo a un modelo de clasificación* (García et al.1998 citado en Rojas y Medina, 2021,p.92).

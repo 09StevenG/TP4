@@ -20,9 +20,10 @@ Clasificación de imágenes en GEE y matriz de confusión
 
 La clasificación supervisada es fundamental pues gracias a ello se puede identificar un determinado píxel y clasificarlo para crear distintas categorías.En este tipo de clasificación la persona experta tiene el control del proceso y asigna áreas de entrenamiento conocidas para que posteriormente el algoritmo realice la identificación donde encuentre gupos de píxeles similares a los puntos o polígonos distribuidos previamente en en área de estudio.Finalmente es necesaria una validación del procedimiento.
 
-Para el análisis de imágenes satelitales la clasificación de coberturas terrestres consiste en la agrupación de clases espectrales con determinadas respuestas que finalmente proporciona clases informativas fundamentales para identificar la evolución de un área y los cambios que surgen producto de las dinámicas en la zona de estudio.
+Para el análisis de imágenes satelitales la clasificación de coberturas terrestres consiste en la agrupación de clases espectrales con determinadas respuestas que finalmente proporciona clases informativas fundamentales para identificar la evolución de un área y los cambios que surgen producto de las dinámicas en la zona de estudio.La clasificación de imágenes satelitales más utilizada es la basada en píxeles 
 
-
-La clasificación de imágenes satelitales más utilizada es la basada en píxeles 
 > *la clasificación supervisada de imágenes, que es el que se lleva a cabo para encontrar propiedades comunes entre un conjunto de datos y clasificarlos dentro de diferentes rangos, de acuerdo a un modelo de clasificación* (García et al.1998 citado en Rojas y Medina, 2021,p.92).
 
+El aprendizaje automático consiste en un subconjunto de la inteligencia artificial en el que los datos estructurados se procesan con un algoritmo para resolver un problema. Su relación con la Teledetección surge en el momento de realizar procesamientos espaciales en software GIS posibilitando agrupaciones y clasificaciones.
+
+En el presente trabajo práctico se visualiza como las indicaciones realizadas (con puntos de entrenamieo) para la identificación de coberturas interactúan con un algoritmo a lo largo del área seleccionada en la región de Guanacaste.  

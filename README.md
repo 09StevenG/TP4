@@ -44,6 +44,8 @@ En el presente trabajo práctico se visualiza como las indicaciones realizadas (
  > ![](CART.png)  _CART_
  
  >  ![](RANDOM.png) _RANDOM FOREST_
+
+En ambas matrices la clasificación del bosque y los cuerpos de agua es óptima. Los errores surgen para la clasificación de cultivos, uso de suelo y urbano 
     
 
 - Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas

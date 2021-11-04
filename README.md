@@ -28,6 +28,11 @@ En el presente trabajo práctico se visualiza como las indicaciones realizadas (
 - Genere curvas de reflectancia para cada una de las coberturas definidas e interprételas brevemente
 ![](grafico1.png) ![](grafico2.png)
 
+> Se realiza una clasificación de los píxeles en función de la información espectral. Las firmas espectrales nos permiten conocer la reflectancia de una determinada cobertura en distintas longitudes de onda. 
+Hay un comportamiento similar al visualizar las firmas espectrales resultantes. El suelo desnudo presenta alta reflectancia en el espectro visible (azul, verde, rojo) y va disminuyendo hasta en el infrarrojo lejano.  El bosque y los cultivos tienen una alta reflectancia en el segmento rojo e infrarrojo cercano debido a la clorofila presente en estas coberturas. El Urbano presenta alta reflectancia en el espectro rojo pero se mantiene constante hasta el infrarrojo lejano.
+Claramente surgen algunas diferencias muy marcadas como en el caso de las nubes que presentan una alta reflectancia en todo el espectro en comparación con las demás coberturas utilizadas. En contraste con los cuerpos de agua que solamente presentan alta reflectancia en el espectro de onda azul.
+
+
 - Para el proceso de clasificación, utilice los clasificadores:
  ### Classification and Regression Trees (CART)–ee.Classifier.smileCart
 ![](chart.png)

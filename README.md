@@ -7,14 +7,7 @@ Clasificación de imágenes en GEE y matriz de confusión
 # Objetivo 
 1.	Desarrolle un código para clasificar una imagen Landsat 8 TOA, de un área en Guanacaste
 
-## Procedimiento
-- Genere curvas de reflectancia para cada una de las coberturas definidas e interprételas brevemente
 
-- Para el proceso de clasificación, utilice los clasificadores: Classification and Regression Trees (CART)–ee.Classifier.smileCart y luego realice otra clasificación pero con RandomForest–ee.Classifier.smileRandomForest 
-- Compare los resultados de ambos clasificadores 
-- Realice la matriz de confusión para ambos clasificadores
-- Realice un mapa con su respectiva leyenda
-- Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas
 ## Conceptos teóricos 
 - Realice una introducción donde explique ¿qué son las clasificaciones supervisadas? ¿Qué es el Machine Learning y cómo se conecta con la teledetección?
 
@@ -29,3 +22,12 @@ El aprendizaje automático consiste en un subconjunto de la inteligencia artific
 En el presente trabajo práctico se visualiza como las indicaciones realizadas (con puntos de entrenamieo) para la identificación de coberturas interactúan con un algoritmo a lo largo del área seleccionada en la región de Guanacaste.  
 
 > *Se han empezado a unir herramientas de sistemas de información geográfica con inteligencia artificial para volver cada vez más eficientes los análisis. Una de las ramas de la inteligencia artificial que más se ha aplicado en el uso de los SIG es el aprendizaje automático (Machine Learning en inglés). Tal y como lo explica Lauren Bennett, líder del desarrollo de software para Análisis Espacial y la Ciencia de Datos en Esri, el aprendizaje automático es un “conjunto de técnicas y algoritmos basados ​​en datos que automatizan la predicción, clasificación y agrupación de datos”. En términos generales, son algoritmos alimentados con información para aprender de ésta y poder replicarse en otras situaciones* [esri Pánama](https://www.esri.pa/arcgisblog/los-resultados-de-la-fusion-entre-los-sig-y-el-aprendizaje-automatico/). 
+
+## Procedimiento
+- Genere curvas de reflectancia para cada una de las coberturas definidas e interprételas brevemente
+!()[grafico1.png]
+- Para el proceso de clasificación, utilice los clasificadores: Classification and Regression Trees (CART)–ee.Classifier.smileCart y luego realice otra clasificación pero con RandomForest–ee.Classifier.smileRandomForest 
+- Compare los resultados de ambos clasificadores 
+- Realice la matriz de confusión para ambos clasificadores
+- Realice un mapa con su respectiva leyenda
+- Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas

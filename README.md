@@ -71,7 +71,7 @@ Una clasificación supervisada requiere de gran detalle a lo largo de todo el fl
 Es importante utilizar una muestra significativa de los datos para un adecuado proceso, que finalmente se validará su exactitud teniendo en cuneta los errores y aciertos.
 Al implementar esta tecnología se pueden disminuir costos y realizar una clasificación adecuada de la zona de estudio.
 
-                                                                                      Referencias 
+                                                                            Referencias 
 
 - Cánovas-García, F., Alonso-Sarría, F., & Gomariz-Castillo, F. (2016). Modificación del algoritmo Random Forest para su empleo en clasificación de imágenes de Teledetección. In Aplicaciones de las Tecnologías de la Información Geográfica (TIG) para el desarrollo económico sostenible XVII Congreso Nacional de Tecnologías de Información Geográfica, Málaga (Vol. 29, No. 30, pp. 359-368).
 

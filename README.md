@@ -68,4 +68,7 @@ Al comparar los resultados de cada clasificación respecto a la verdad del terre
 
 Cánovas-García, F., Alonso-Sarría, F., & Gomariz-Castillo, F. (2016). Modificación del algoritmo Random Forest para su empleo en clasificación de imágenes de Teledetección. In Aplicaciones de las Tecnologías de la Información Geográfica (TIG) para el desarrollo económico sostenible XVII Congreso Nacional de Tecnologías de Información Geográfica, Málaga (Vol. 29, No. 30, pp. 359-368).
 
+Rojas, S., & Medina, J. (2021). Clasificación supervisada contextual de Markov empleando imágenes multiespectrales LandSat 8 OLI y Sentinel 2A. UD y la geomática, (16).
+
 Sepúlveda, J. F. D., & Morales, J. C. C. (2013). Comparación entre árboles de regresión CART y regresión lineal. Comunicaciones en Estadística, 6(2), 175-195.
+

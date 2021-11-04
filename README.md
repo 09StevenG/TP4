@@ -45,7 +45,7 @@ En el presente trabajo práctico se visualiza como las indicaciones realizadas (
  
  >  ![](RANDOM.png) _RANDOM FOREST_
 
-En ambas matrices la clasificación del bosque y los cuerpos de agua es óptima. Los errores surgen para la clasificación de cultivos, uso de suelo y urbano 
+Al comparar los resultados de cada clasificación respecto a la verdad del terreno, en ambas matrices la clasificación del bosque y los cuerpos de agua es óptima. Los errores surgen para la clasificación de cultivos, uso de suelo y urbano pues se presentan valores en una clase que pertenecen a otra. Con el método Random Forest los errores de omisión y comisión dismunuyen un poco pero se presenta la misma problemática.
     
 
 - Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas

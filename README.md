@@ -44,5 +44,6 @@ En el presente trabajo práctico se visualiza como las indicaciones realizadas (
  
  >  ![](RANDOM.png) _RANDOM FOREST_
     
-- Realice un mapa con su respectiva leyenda
+
 - Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas
+

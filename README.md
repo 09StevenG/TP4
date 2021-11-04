@@ -39,11 +39,7 @@ Claramente surgen algunas diferencias muy marcadas como en el caso de las nubes 
 ### RandomForest–ee.Classifier.smileRandomForest 
 ![](ra.png) 
 
-> *Random Forest es uno de los algoritmos de clasificación de imágenes más usados en teledetección. Una de 
-sus ventajas es que aporta una estimación interna de exactitud mediante una forma de validación cruzada. Sin 
-embargo, esta estimación subestima el error de predicción al clasificar coberturas del suelo con áreas de 
-entrenamiento compuestas por varios píxeles, ya que se viola la necesaria independencia estadística entre 
-casos de entrenamiento y de validación.*(Cánovas et al.,2016,p.360)
+> *Random Forest es uno de los algoritmos de clasificación de imágenes más usados en teledetección. Una de  sus ventajas es que aporta una estimación interna de exactitud mediante una forma de validación cruzada. Sin embargo, esta estimación subestima el error de predicción al clasificar coberturas del suelo con áreas de  entrenamiento compuestas por varios píxeles, ya que se viola la necesaria independencia estadística entre  casos de entrenamiento y de validación.*(Cánovas et al.,2016,p.360)
 
 ### Clasificación en cuenca Tempisque sin la variable Nubes 
 ![](tempiscuenca.png) 

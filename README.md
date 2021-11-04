@@ -53,7 +53,8 @@ En este caso los datos "históricos" son los puntos que catalogamos en una deter
 ![](tempiscuenca.png) 
 
 - Compare los resultados de ambos clasificadores 
-Surgen resultados similares. Random Forest realiza una clasificación más precisa al tener un mayor control en la clase de Urbano y de cultivos pues en la clasificación CART se presentaba una mezcla de las clasificaciones mencionadas en zonas que no correspondían. 
+
+Surgen resultados similares. Random Forest realiza una clasificación más precisa al tener un mayor control en la clase de Urbano y de cultivos pues en la clasificación CART se presentaba una mezcla de las clasificaciones mencionadas en zonas que no correspondían. En ambos casos las nubes representan un desafío de clasificación pues aparte de su reflectancia crean una sombra que genera confusión en el algoritmo.Se puede sintetizar que la clasificación CART es más dependiente de la calidad en el trazo de los puntos de entrenamiento.
 
 
 - Realice la matriz de confusión para ambos clasificadores
@@ -64,11 +65,17 @@ Surgen resultados similares. Random Forest realiza una clasificación más preci
 Al comparar los resultados de cada clasificación respecto a la verdad del terreno, en ambas matrices la clasificación del bosque y los cuerpos de agua es óptima. Los errores surgen para la clasificación de cultivos, uso de suelo y urbano pues se presentan valores en una clase que pertenecen a otra. Con el método Random Forest los errores de omisión y comisión dismunuyen un poco pero se presenta la misma problemática.
     
 
-- Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas
+- Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas.
 
-Cánovas-García, F., Alonso-Sarría, F., & Gomariz-Castillo, F. (2016). Modificación del algoritmo Random Forest para su empleo en clasificación de imágenes de Teledetección. In Aplicaciones de las Tecnologías de la Información Geográfica (TIG) para el desarrollo económico sostenible XVII Congreso Nacional de Tecnologías de Información Geográfica, Málaga (Vol. 29, No. 30, pp. 359-368).
+Una clasificación supervisada requiere de gran detalle a lo largo de todo el flujo de trabajo, un error a la hora de generar los datos de entrenamiento puede crear confusión en  el proceso posterior de automatización. De igual forma, si este se realiza de manera adecuada puede representar una importante ventaja para el análisis de imágenes satelitales ya que disminuye el tiempo del procesamiento y la dependencia de la persona experta, pues la mayor parte del trabajo lo realizará el algoritmo.
+Es importante utilizar una muestra significativa de los datos para un adecuado proceso, que finalmente se validará su exactitud teniendo en cuneta los errores y aciertos.
+Al implementar esta tecnología se pueden disminuir costos y realizar una clasificación adecuada de la zona de estudio.
 
-Rojas, S., & Medina, J. (2021). Clasificación supervisada contextual de Markov empleando imágenes multiespectrales LandSat 8 OLI y Sentinel 2A. UD y la geomática, (16).
+                                                                                      Referencias 
 
-Sepúlveda, J. F. D., & Morales, J. C. C. (2013). Comparación entre árboles de regresión CART y regresión lineal. Comunicaciones en Estadística, 6(2), 175-195.
+- Cánovas-García, F., Alonso-Sarría, F., & Gomariz-Castillo, F. (2016). Modificación del algoritmo Random Forest para su empleo en clasificación de imágenes de Teledetección. In Aplicaciones de las Tecnologías de la Información Geográfica (TIG) para el desarrollo económico sostenible XVII Congreso Nacional de Tecnologías de Información Geográfica, Málaga (Vol. 29, No. 30, pp. 359-368).
+
+- Rojas, S., & Medina, J. (2021). Clasificación supervisada contextual de Markov empleando imágenes multiespectrales LandSat 8 OLI y Sentinel 2A. UD y la geomática, (16).
+
+- Sepúlveda, J. F. D., & Morales, J. C. C. (2013). Comparación entre árboles de regresión CART y regresión lineal. Comunicaciones en Estadística, 6(2), 175-195.
 

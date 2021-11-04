@@ -36,6 +36,14 @@ Claramente surgen algunas diferencias muy marcadas como en el caso de las nubes 
 - Para el proceso de clasificación, utilice los clasificadores:
  ### Classification and Regression Trees (CART)–ee.Classifier.smileCart
 ![](chart.png)
+
+> Los árboles de clasificación y regresión (CART) es un método que utiliza datos históricos para construir árboles de clasificación o de regresión, los cuales son usados para clasificar o predecir nuevos datos. Estos árboles CART pueden manipular
+fácilmente variables numéricas y categóricas.(Sepúlveda, 2012, p.176)
+
+En este caso los datos "históricos" son los puntos que catalogamos en una determinada cobertura con el respaldo de la imagen de color verdadero, además de la imagen satelital con la que cuneta GEE.
+
+
+
 ### RandomForest–ee.Classifier.smileRandomForest 
 ![](ra.png) 
 
@@ -59,3 +67,5 @@ Al comparar los resultados de cada clasificación respecto a la verdad del terre
 - Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas
 
 Cánovas-García, F., Alonso-Sarría, F., & Gomariz-Castillo, F. (2016). Modificación del algoritmo Random Forest para su empleo en clasificación de imágenes de Teledetección. In Aplicaciones de las Tecnologías de la Información Geográfica (TIG) para el desarrollo económico sostenible XVII Congreso Nacional de Tecnologías de Información Geográfica, Málaga (Vol. 29, No. 30, pp. 359-368).
+
+Sepúlveda, J. F. D., & Morales, J. C. C. (2013). Comparación entre árboles de regresión CART y regresión lineal. Comunicaciones en Estadística, 6(2), 175-195.

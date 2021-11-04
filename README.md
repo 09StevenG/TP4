@@ -40,7 +40,9 @@ En el presente trabajo práctico se visualiza como las indicaciones realizadas (
 
 
 - Realice la matriz de confusión para ambos clasificadores
-- > ![](CART.png),![](RANDOM.png)
+ > CART ![](CART.png)
+ 
+ > RANDOM FOREST ![](RANDOM.png)
     
 - Realice un mapa con su respectiva leyenda
 - Conclusiones del ejercicio, aplicaciones de las clasificaciones de imágenes satelitales. Lecciones aprendidas

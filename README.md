@@ -25,7 +25,7 @@ En el presente trabajo práctico se visualiza como las indicaciones realizadas (
 
 ## Procedimiento
 - Genere curvas de reflectancia para cada una de las coberturas definidas e interprételas brevemente
-![](grafico1.png)
+![](grafico1.png) ![](grafico2.png)
 
 - Para el proceso de clasificación, utilice los clasificadores: Classification and Regression Trees (CART)–ee.Classifier.smileCart y luego realice otra clasificación pero con RandomForest–ee.Classifier.smileRandomForest 
 - Compare los resultados de ambos clasificadores 

@@ -7,6 +7,7 @@ Clasificación de imágenes en GEE y matriz de confusión
 # Objetivo 
 1.	Desarrolle un código para clasificar una imagen Landsat 8 TOA, de un área en Guanacaste
 
+[Código resultante en GEE](https://code.earthengine.google.com/af62011dca308889c00cfd8cb9c129d6)
 
 ## Conceptos teóricos 
 - Realice una introducción donde explique ¿qué son las clasificaciones supervisadas? ¿Qué es el Machine Learning y cómo se conecta con la teledetección?

@@ -18,7 +18,7 @@ Para el análisis de imágenes satelitales la clasificación de coberturas terre
 
 > *la clasificación supervisada de imágenes, que es el que se lleva a cabo para encontrar propiedades comunes entre un conjunto de datos y clasificarlos dentro de diferentes rangos, de acuerdo a un modelo de clasificación* (García et al.1998 citado en Rojas y Medina, 2021,p.92).
 
-El aprendizaje automático consiste en un subconjunto de la inteligencia artificial en el que los datos estructurados se procesan con un algoritmo para resolver un problema. Su relación con la Teledetección surge en el momento de realizar procesamientos geoespaciales en software GIS posibilitando agrupaciones y clasificaciones.
+El aprendizaje automático consiste en un subconjunto de la inteligencia artificial en el que los datos estructurados se procesan con un algoritmo para resolver un problema. Su relación con la Teledetección surge en el momento de realizar procesamientos geoespaciales aportando soluciones automatizadas que permiten realizar procesamientos con mayor facilidad y exactitud.
 
 En el presente trabajo práctico se visualiza como las indicaciones realizadas (con puntos de entrenamiento) para la identificación de coberturas, interactúan con un algoritmo a lo largo del área seleccionada en la región de Guanacaste.  
 

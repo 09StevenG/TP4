@@ -40,7 +40,7 @@ Claramente surgen algunas diferencias muy marcadas como en el caso de las nubes 
 > Los árboles de clasificación y regresión (CART) es un método que utiliza datos históricos para construir árboles de clasificación o de regresión, los cuales son usados para clasificar o predecir nuevos datos. Estos árboles CART pueden manipular
 fácilmente variables numéricas y categóricas.(Sepúlveda, 2012, p.176)
 
-En este caso los datos "históricos" son los puntos que catalogamos en una determinada cobertura con el respaldo de la imagen de color verdadero, además de la imagen satelital con la que cuneta GEE.
+En este caso los datos "históricos" son los puntos que catalogamos en una determinada cobertura con el respaldo de la imagen de color verdadero, además de la imagen satelital con la que cuenta GEE.
 
 
 
@@ -53,7 +53,7 @@ En este caso los datos "históricos" son los puntos que catalogamos en una deter
 ![](tempiscuenca.png) 
 
 - Compare los resultados de ambos clasificadores 
-
+Surgen resultados similares. Random Forest realiza una clasificación más precisa al tener un mayor control en la clase de Urbano y de cultivos pues en la clasificación CART se presentaba una mezcla de las clasificaciones mencionadas en zonas que no correspondían. 
 
 
 - Realice la matriz de confusión para ambos clasificadores

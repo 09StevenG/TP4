@@ -30,7 +30,7 @@ En el presente trabajo práctico se visualiza como las indicaciones realizadas (
 - Para el proceso de clasificación, utilice los clasificadores: Classification and Regression Trees (CART)–ee.Classifier.smileCart y luego realice otra clasificación pero con RandomForest–ee.Classifier.smileRandomForest 
 ![](chart.png)
 ![](ra.png) 
-![](Tempisque.png) 
+![](cuencatemp.png) 
 
 
 - Compare los resultados de ambos clasificadores 
